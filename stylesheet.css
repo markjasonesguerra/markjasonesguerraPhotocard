@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    background-color: purple;
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(38, 9, 38);
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.profile-box .profile-pic:hover{
+    background-color: rgb(53, 1, 36);
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(38, 9, 38);
+}
+
+.bx-menu{
+    font-size: 30px;
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.bx-menu:hover {
+    color: rgb(53, 1, 36); 
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bxs-cog{
+    font-size: 30px;
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.bxs-cog:hover {
+    color: rgb(53, 1, 36); 
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+.profile-bottom{
+    background: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-right: -90px; 
+    margin-left: -90px; 
+    margin-bottom: -40px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.profile-bottom i.bxs-chevron-down {
+    width: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: margin-top 0.3s ease;
+}
+
+.profile-bottom:hover i.bxs-chevron-down {
+    margin-top: 20px; 
+    transition: margin-top 0.3s ease;
+}
+
+.profile-box button{
+    background: #fff;
+    color: purple;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px gray;
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profile-box button:hover{
+    background: rgb(28, 9, 28);
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px gray;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.profile-box h3{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.profile-box p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Example text shadow */
+}
+
+.bxl-facebook{
+    width: 30px;
+    margin: 30px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bxl-instagram{
+    width: 30px;
+    margin: 30px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bxl-youtube{
+    width: 30px;
+    margin: 30px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bxl-twitter{
+    width: 30px;
+    margin: 30px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bxl-linkedin{
+    width: 30px;
+    margin: 30px 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.social-media a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff;
+    background: purple;
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin: 20px 10px; /* Adjusted margin */
+    transition: all 0.5s ease;
+}
+
+.social-media a:hover {
+    background: transparent;
+    color: rgb(28, 7, 21) !important;
+    text-decoration: none;
+    transform: scale(1.1);
+}
